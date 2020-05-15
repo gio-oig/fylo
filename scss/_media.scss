@@ -1,0 +1,49 @@
+@media (max-width: 900px) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .logo-wrapp {
+    img {
+      width: 10rem;
+      // height: 20rem;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .section-one {
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+  .section-one-img {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  nav {
+    .logo-wrapp {
+      flex: 0;
+    }
+  }
+
+  .section-two-content {
+    h1 {
+      text-align: center;
+    }
+    a {
+      align-self: center;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .input-form {
+    a {
+      padding: 0.7rem 1rem;
+    }
+  }
+}
